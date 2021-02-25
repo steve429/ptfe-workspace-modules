@@ -10,3 +10,4 @@ module "server" {
   identity               = var.identity
   web_count              = var.web_count
 }
+
