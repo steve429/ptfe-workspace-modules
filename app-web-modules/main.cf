@@ -2,7 +2,8 @@ provider "aws" {
 }
 
 module "server" {
-  source = "app.terraform.io/frb-sb/server/aws"
+  source  = "app.terraform.io/frb-sb/server/aws"
+  version = "0.1.0"
 
   ami                    = var.ami
   subnet_id              = var.subnet_id
